@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <color name="colorPrimary">#2b92e9</color>
+    <color name="ndDialogColorPrimary">#2b92e9</color>
+    <color name="colorPrimaryDark">#2172c9</color>
+    <color name="colorAccent">#2b92e9</color>
+
+    <color name="ndDialogDayBackground">#fff</color>
+    <color name="ndDialogNightBackground">#202020</color>
+
+    <color name="ndDialogDividerColor">#1F000000</color>
+
+    <color name="ndDialogOptionDisabledColor">#0F000000</color>
+    <color name="ndDialogOptionActiveImageColor">#2b92e9</color>
+    <color name="ndDialogOptionActiveTextColor">#2b92e9</color>
+    <color name="ndDialogOptionImageColor">#202020</color>
+    <color name="ndDialogOptionTextColor">#202020</color>
+
+</resources>

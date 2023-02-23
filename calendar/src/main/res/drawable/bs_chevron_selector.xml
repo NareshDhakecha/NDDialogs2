@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/up"
+        android:drawable="@drawable/bs_ic_chevron_up"
+        android:state_checked="true" />
+
+    <item
+        android:id="@+id/down"
+        android:drawable="@drawable/bs_ic_chevron_down"
+        android:state_checked="false" />
+
+    <transition
+        android:drawable="@drawable/bs_avd_chevron_down_to_up"
+        android:fromId="@id/down"
+        android:toId="@id/up" />
+
+    <transition
+        android:drawable="@drawable/bs_avd_chevron_up_to_down"
+        android:fromId="@id/up"
+        android:toId="@id/down" />
+
+</animated-selector>

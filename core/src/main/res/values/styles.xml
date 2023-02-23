@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="BottomSheet.Base.Light" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <item name="android:colorEdgeEffect">?attr/ndDialogHighlightColor</item>
+        <item name="android:colorControlHighlight">?attr/ndDialogHighlightColor</item>
+        <item name="ndDialogBackgroundColor">@color/ndDialogDayBackground</item>
+        <item name="ndDialogPrimaryColor">?ndDialogPrimaryColor</item>
+        <item name="android:colorActivatedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPressedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorLongPressedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorFocusedHighlight">?attr/ndDialogPrimaryColor</item>
+
+        <item name="android:colorPrimary">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPrimaryDark">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorAccent">?attr/ndDialogPrimaryColor</item>
+        <item name="android:navigationBarColor">?attr/ndDialogBackgroundColor</item>
+    </style>
+
+    <style name="BottomSheet.Base.Dark" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <item name="android:colorEdgeEffect">?attr/ndDialogHighlightColor</item>
+        <item name="android:colorControlHighlight">?attr/ndDialogHighlightColor</item>
+
+        <item name="ndDialogBackgroundColor">@color/ndDialogNightBackground</item>
+        <item name="ndDialogPrimaryColor">?colorPrimary</item>
+        <item name="android:colorPrimary">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPrimaryDark">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorAccent">?attr/ndDialogPrimaryColor</item>
+        <item name="android:navigationBarColor">?attr/ndDialogBackgroundColor</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogSheet.Base.Light" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:tint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <item name="android:colorEdgeEffect">?attr/ndDialogHighlightColor</item>
+        <item name="android:colorControlHighlight">?attr/ndDialogHighlightColor</item>
+        <item name="ndDialogBackgroundColor">@color/ndDialogDayBackground</item>
+        <item name="ndDialogPrimaryColor">?ndDialogPrimaryColor</item>
+        <item name="android:colorActivatedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPressedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorLongPressedHighlight">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorFocusedHighlight">?attr/ndDialogPrimaryColor</item>
+
+        <item name="android:colorPrimary">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPrimaryDark">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorAccent">?attr/ndDialogPrimaryColor</item>
+        <item name="android:navigationBarColor">?attr/ndDialogBackgroundColor</item>
+    </style>
+
+    <style name="DialogSheet.Base.Dark" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <item name="android:colorEdgeEffect">?attr/ndDialogHighlightColor</item>
+        <item name="android:colorControlHighlight">?attr/ndDialogHighlightColor</item>
+
+        <item name="ndDialogBackgroundColor">@color/ndDialogNightBackground</item>
+        <item name="ndDialogPrimaryColor">?colorPrimary</item>
+        <item name="android:colorPrimary">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorPrimaryDark">?attr/ndDialogPrimaryColor</item>
+        <item name="android:colorAccent">?attr/ndDialogPrimaryColor</item>
+        <item name="android:navigationBarColor">?attr/ndDialogBackgroundColor</item>
+    </style>
+
+</resources>
