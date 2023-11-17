@@ -17,7 +17,7 @@
         android:background="@drawable/nddialog_ripple_option_selector"
         android:clickable="true"
         android:focusable="true"
-        android:minHeight="96dp"
+        android:minHeight="56dp"
         android:paddingHorizontal="8dp"
         android:paddingVertical="16dp"
         app:layout_constraintBottom_toBottomOf="parent"

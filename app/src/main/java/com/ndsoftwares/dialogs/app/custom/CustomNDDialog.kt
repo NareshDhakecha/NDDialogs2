@@ -44,10 +44,11 @@ class CustomNDDialog : NDDialog() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        setButtonPositiveListener {  } If you want to override the default positive click listener
-//        displayButtonsView() If you want to change the visibility of the buttons view
-//        displayButtonPositive() Hiding the positive button will prevent clicks
-//        hideToolbar() Hide the toolbar of the sheet, the title and the icon
+
+//        setButtonPositiveListener {  } //If you want to override the default positive click listener
+        displayButtonsView(false) //If you want to change the visibility of the buttons view
+//        displayButtonPositive(false) //Hiding the positive button will prevent clicks
+//        displayToolbar(false) //Hide the toolbar of the sheet, the title and the icon
     }
 
     /** Build [CustomNDDialog] and show it later. */

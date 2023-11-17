@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
 
         CustomNDDialog().show(this) {
             style(getSheetStyle())
-            title("Custom Example")
+//            title("Custom Example")
             onPositive("Cool")
         }
     }
@@ -356,6 +356,7 @@ class MainActivity : AppCompatActivity() {
         val sheet = NDOptionsDialog().build(this) { // Build and show
             style(getSheetStyle())
             displayMode(DisplayMode.LIST)
+            showIcon(false)
             cornerFamily(CornerFamily.CUT)
             titleColor(Color.YELLOW)
             cornerRadius(16f)
@@ -384,6 +385,7 @@ class MainActivity : AppCompatActivity() {
 
         val sheet = NDOptionsDialog().build(this) { // Build only
             style(getSheetStyle())
+            showIcon(false)
             displayMode(displayMode) // Display mode for list/grid + scroll into height or width
             title("What's your favorite fruit?")
             displayMode(DisplayMode.GRID_HORIZONTAL) // Display mode for list/grid + scroll into height or width
@@ -406,6 +408,7 @@ class MainActivity : AppCompatActivity() {
         NDOptionsDialog().show(this) { // Build and show
             style(getSheetStyle())
             displayMode(displayMode) // Display mode for list/grid + scroll into height or width
+            showIcon(false)
             title("What would you like to eat daily?")
             multipleChoices() // Apply to make it multiple choices
             minChoices(3) // Set minimum choices
@@ -441,6 +444,7 @@ class MainActivity : AppCompatActivity() {
         NDOptionsDialog().show(this) { // Build and show
             style(getSheetStyle())
             displayMode(displayMode) // Display mode for list/grid + scroll into height or width
+            showIcon(false)
             title("What would you like to eat daily?")
             with(
                 Option(R.drawable.ic_food_burger, "Burger"),

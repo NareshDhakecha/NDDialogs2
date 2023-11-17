@@ -58,6 +58,7 @@ class NDOptionsDialog : NDDialog() {
     private var maxChoices: Int? = null
     private var maxChoicesStrict = true
     private var displayButtons = false
+    private var showIcon = true
 
     private val saveAllowed: Boolean
         get() {
@@ -105,6 +106,10 @@ class NDOptionsDialog : NDDialog() {
     /** Display buttons and require a positive button click. */
     fun displayButtons(displayButtons: Boolean = true) {
         this.displayButtons = displayButtons
+    }/** Display buttons and require a positive button click. */
+
+    fun showIcon(showIcon: Boolean = true) {
+        this.showIcon = showIcon
     }
 
     /** Set display mode. */
@@ -347,6 +352,7 @@ class NDOptionsDialog : NDDialog() {
                     requireActivity(),
                     options,
                     mode,
+                    showIcon,
                     multipleChoices,
                     collapsedItems,
                     adapterListener
